@@ -6,7 +6,7 @@ export const typeOrmConfig: TypeOrmModuleOptions = {
   port: 5432,
   username: 'postgres',
   password: 'docker',
-  database: 'guiaProject',
+  database: 'PERSONAL_FINANCE',
   autoLoadEntities: true,
   synchronize: true,
 };
